@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker App</title>
+</head>
+<body>
+    <div class="main">
+    <h1>Expense Tracker</h1>
+    <div class="balancecontainer">    
+        <h2>Your balance</h2>
+        <div class="amount">$1000</div>
+    </div>
+
+    <div class="incomeExpenseContainer">
+        <div class="incomecontainer">
+            <h2>Income</h2>
+            <div id="income">$500</div>
+        </div>
+        <div class="expensecontainer">
+            <h2>Expense</h2>
+            <div id="expense">$100</div>
+        </div>
+    </div> 
+
+    <div class="transactioncontainer">
+        <h2>Transaction History</h2>
+        <ul class="transaction">
+           
+        </ul>
+    </div>
+    
+    <div class="addTransaction">
+        <h2>Add Transaction</h2>
+        <form class="container" onsubmit="return false;">
+            <label for="Name">Name</label>
+            <input type="text" id="Name">
+            <label for= "Amount">Amount</label>
+            <input type="number" id="amount">
+            <button class="addincome">Add Income</button>
+            <button class="addexpense">Add Expense</button>
+        </form>
+    </div>
+    </div>
+
+</body>
+<script src='script.js'></script>
+</html>
+
+

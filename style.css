@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "sans-serif";
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main {
+  height: 100%;
+  width: 350px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.balancecontainer {
+  padding: 20 0 10 0;
+}
+.amount {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 5 0 10 0;
+}
+
+.incomeExpenseContainer {
+  display: flex;
+  padding: 20 40 20 40;
+  box-shadow: 0 1px 4px 1px rgba(199, 199, 199, 1);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.incomecontainer {
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+.expensecontainer {
+  padding-left: 20px;
+}
+#income {
+  color: green;
+  font-size: 1.2rem;
+}
+#expense {
+  color: red;
+  font-size: 1.2rem;
+}
+.transactioncontainer h2 {
+  margin-bottom: 20px;
+}
+.transactioncontainer li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5 5 5 20;
+  font-size: 1.2rem;
+  font-weight: 400;
+  box-shadow: 0 1px 4px 1px rgba(199, 199, 199, 1);
+  border-radius: 2px;
+  max-height: 250px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+.transactioncontainer button {
+  height: 30px;
+  width: 30px;
+}
+ul .incomee {
+  margin-right: 3px;
+  padding-bottom: 0;
+  background-color: green;
+  color: white;
+  border-radius: 2px;
+}
+ul .expensee {
+  margin-right: 3px;
+  padding: 1px;
+  background-color: red;
+  color: white;
+  border-radius: 2px;
+}
+.addTransaction h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.addincome {
+  height: 30px;
+  background-color: green;
+  color: white;
+  border: none;
+  margin: 5 0 0 0;
+  border-radius: 3px;
+}
+.addexpense {
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  margin: 5 0 5 0;
+  border-radius: 3px;
+}
+#name {
+  margin: 5 0 5 0;
+}
+#amount {
+  margin: 5 0 10 0;
+}
